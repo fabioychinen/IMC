@@ -91,7 +91,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     const TextStyle(fontSize: 46, fontWeight: FontWeight.bold),
               ),
               const SizedBox(height: 16),
-              Container(
+              SizedBox(
                 width: 200,
                 child: ElevatedButton(
                   onPressed: () {
@@ -116,7 +116,7 @@ class _MyHomePageState extends State<MyHomePage> {
           });
         },
         tooltip: 'Increment',
-        child: Text('Limpar '),
+        child: const Text('Limpar '),
       ),
     );
   }
